@@ -17,7 +17,7 @@ int main()
 	int num_apples	= 123;
 
 	// this is important
-	int x = 1 + 2; 
+	//int x = 1 + 2; 
 
 	// this is important, too
 	int y = 3 + 4; 
