@@ -2,20 +2,31 @@
 
 using namespace std;
 
+#define NUM_STUDENTS 100000
+
+void doSomething(int students_scores[20])
+{
+    cout << (int)&students_scores << '\n';
+    cout << students_scores[0] << '\n';
+    cout << students_scores[1] << '\n';
+    cout << students_scores[2] << '\n';
+}
+
 int main()
 {
-    int one_student_score; 
-    int student_scores[5];
+    const int num_students = 20;
+    //cin >> num_students;
 
-    one_student_score = 100;
+    int students_scores[num_students] = {1, 2, 3, 4, 5, };
+    
+    cout << (int)students_scores << '\n';
+    cout << (int)&students_scores << '\n';
+    cout << students_scores[0] << '\n';
+    cout << students_scores[1] << '\n';
+    cout << students_scores[2] << '\n';
 
-    student_scores[0] = 100; 
-    student_scores[1] = 80;
-    student_scores[2] = 90;
-    student_scores[3] = 50;
-    student_scores[4] = 0;
 
-
+    doSomething(students_scores);
 
 
     return 0;
