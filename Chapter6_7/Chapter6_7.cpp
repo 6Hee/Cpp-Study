@@ -16,7 +16,7 @@ int main()
     int *ptr_x;
     double *ptr_d;
 
-    cout << *ptr_x << endl;
+    //cout << *ptr_x << endl;
 
     /*
     cout << sizeof(x) << endl;
